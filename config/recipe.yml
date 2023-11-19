@@ -47,12 +47,14 @@ modules:
     scripts:
       # this sets up the proper policy & signing files for signed images to work
       - signing.sh
+      - install-kwin-system76-scheduler-integration.sh
 
   - type: systemd
     system:
       enabled:
         - systemd-sysext.service
         - com.system76.Scheduler.service
+        - com.system76.Scheduler.dbusproxy.service
   
   - type: fonts
     fonts:
