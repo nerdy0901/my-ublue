@@ -38,7 +38,6 @@ modules:
       - fish
       - system76-scheduler
       - input-remapper
-
     remove:
       - firefox # default firefox removed in favor of flatpak
       - firefox-langpacks # langpacks needs to also be removed to prevent dependency problems
@@ -54,7 +53,6 @@ modules:
       enabled:
         - systemd-sysext.service
         - com.system76.Scheduler.service
-        - com.system76.Scheduler.dbusproxy.service
   
   - type: fonts
     fonts:
