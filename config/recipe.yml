@@ -35,7 +35,7 @@ modules:
       - hunspell-vi
       - waydroid
       - fish
-      - firewall-applet
+      - firewall-config
       - langpacks-en
       - langpacks-vi
       - ibus-unikey
